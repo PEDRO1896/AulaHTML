@@ -25,8 +25,73 @@ padding: 20px;
 {
 background-color: white;
 color: rgb(96,0,0);
-padding: 1opx;
+padding: 10px;
 }
+
+table, tr, td, th 
+{
+  border: 1px solid rgb(255,76,76);
+  border-collapse: collapse;
+  padding: 10px;
+  margin: 40px;
+}
+
+.destaque
+{
+background-color: rgb(119,76,76);
+color: white;
+}
+
+.negrito
+{
+font-size: bold;
+}
+
+.italico
+{
+font-size: italic;
+}
+
+.sublinhado
+{
+text-decoration: underline;
+}
+
+.classes2
+{
+width: 80%;
+}
+
+.verde
+{
+background-color: greenyellow;
+}
+
+.vermelho
+{
+background-color:rgb(246,164,164);
+}
+
+.amarelo
+{
+background-color: yellow;
+}
+
+
+.classe4
+{
+font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
 </style>
 
 <div class="caixa">
@@ -38,55 +103,61 @@ padding: 1opx;
 
 <h3>Estoque de produtos</h3>
 
-<table>
-<tr>
+<table class="classes2">
+ <tr class="destaque">
     <th>Produto</th>
     <th>Categoria</th>
     <th>Preço</th>
     <th>Disponibilidade</th>
-</tr>
+ </tr>
 
-<tr>
+<tr class="vermelho">
     <td>Mouse</td>
     <td>Perífericos</td>
     <td>R$ 80,00</td>
     <td>Em estoque</td>
 </tr>
 
-<tr>
+<tr class="verde">
     <td>Teclado</td>
     <td>Perífericos</td>
-    <td>R$ 120,00</td>
+    <td class="amarelo">R$ 120,00</td>
     <td>Fora de estoque</td>
 </tr>
 
-<tr>
+<tr class="vermelho">
     <td>Monitor</td>
     <td>Display</td>
     <td>R$ 850,00</td>
     <td>Em reposição</td>
 </tr>
 
-<tr>
+<tr class="verde">
     <td>Headset</td>
     <td>Áudio</td>
     <td>R$ 210,00</td>
     <td>Em estoque</td>
 </tr>
 
-
-
-
-
-
-
-
-
-
-
 </table>
 
+
+
+<p>tarefas:</p>
+
+<ul>
+<li>Adicione duas novas linhas de produtos e aplique <span class="classe4">negrito, italico,sublinhado</span>confome desejar.</li>
+
+<li>Aplique a classe<span class="classe4"></span>.destaque em uma célula diferente e observe o efeito.</li> 
+</ul>
+
 </div>
+
+
+
+
+
+
 
 </body>
 </html>
