@@ -4,79 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-
-body{
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 85vh;
-
-}
-.quadro
-{
-background-color: white;
-color: brown;
-width: 700px;
-box-shadow:10px 10px 10px black;
-}
-.foto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.foto2{
-    display: flex;
-    justify-content: space-around;
-}
-.rodape{
-    background-color: black;
-    text-align: center;
-    height: 30px;
-    color: whitesmoke;
-}
-
-.linha1
-{
-height: 75px;
-display: flex;
-align-items: center;
-padding: 10px;
-
-}
-.linha2
-{
-height: 72px;
-}
-    </style>
 </head>
+<style>
+body{
+    background-color: rgb(195, 191, 191);
+    justify-content: center;
+    display: flex;
+  align-items: center;
+   height: 85vh;
+       
+ 
+    }
+ .quadrado
+    {
+        background-color: white;
+        width: 700px;
+        margin: 0;
+        border-radius: 5px;
+        box-shadow: 4px 4px 5px gray;
+       
+    }
+   
+ 
+    .imagem
+    {
+        display: flex;
+        justify-content:center;
+        padding: 15px;
+    }
+ 
+    .camada1
+    {
+      padding-left: 20px;
+      display: flex;
+      font-weight: bold;
+     
+    }
+ 
+    .imagem2
+    {
+      display: flex;
+      justify-content:space-around;
+       
+    }
+ 
+    .rodape
+    {
+        background-color: black;
+        text-align: center;
+        color: white;
+        margin: 0;
+       
+       
+    }
+ 
+    a{
+      align-items: center;
+      text-decoration:none;
+      display: flex;
+      justify-content: center;
+    }
+ 
+    .camada2
+    {
+      padding-left: 20px;
+      display: flex;
+      font-weight: bold;
+     
+    }
+ 
+</style>
 <body>
-    <div>
-        <div class="quadro">
-            <div class="foto"><img src="nsaonline.png" width="150px"></div>
-            div class="linha1">
-<form action="">
- Entrar Como <input type="text">
-                
-                        Cod. Etec: <input type="text">
-                        </form>
-                        </div>
-            
-                
-  <div><img src="android.png" width="100px"></div>
-<div><img src="apple-ios.png" width="100px"></div>
+   
+<div class="quadrado">
+ <div class="imagem">
+<img src="nsaonline.png" width="200px">
+     </div>
+    <div >
+ 
+    <form action="">
+ <div class="camada1">
+  Entrar como <input type="text">
+ Cod Etec <input type="text">
+ 
     </div>
+ 
+    <div class="camada2">
+    RM <input type="text">
+ Senha <input type="text">
+   </div>
+</form>
+           
+</div>
+ 
+ <div>
+    <a href="#">Solicitar nova senha</a>
+</div>
+<div class="imagem2">
+    <img src="android.png" width="100px">
+    <img src="apple-ios.png" width="100px">
+</div>
 
-
-
-
-
-    <div class="rodape">
-        Sistema NSA- Desde 2008
-    </div>
-    </div>
-    </div>
+<div class="rodape">
+    <p style="margin: 0;">Sistema NSA - Desde 2008 </p>
+</div>
+</div>
 
 </body>
 </html>
